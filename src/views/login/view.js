@@ -2,7 +2,7 @@
 require("../../js/importBootstrap")
 import './view.scss';
 import '../../js/Fullscreen/supersized.js'
-var jQuery = require("../../js/jQuery-3.1.1");
+var jQuery = require("../../js/jquery-3.1.1");
 jQuery(function($){
 
     $.supersized({

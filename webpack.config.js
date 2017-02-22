@@ -42,8 +42,12 @@ module.exports = {
         loader:'style-loader!css-loader' 
       },
       {
-        test: /\.(png|jpg|eot|woff|woff2|ttf)$/,
+        test: /\.(eot|woff|woff2|ttf)$/,
         loader: 'file-loader'
+      },
+      {
+        test: /\.(jpe?g|png|jpg|gif|svg|webp)$/,
+        loader: 'url?limit=8192&name=imgs/[name].[ext]'
       },
       {
         test:/\.svg$/,
