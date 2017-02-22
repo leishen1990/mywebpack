@@ -1,0 +1,9 @@
+@import '../../styles/base';
+@import '../../styles/lei';
+@import '../../components/nav/nav';
+@import '../../components/header/header';
+
+.header {
+	color: $primary;
+  background: $lei;
+}
